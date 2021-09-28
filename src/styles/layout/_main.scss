@@ -1,0 +1,32 @@
+@use '../abstract' as a;
+
+.main-one {
+  flex: 0 1 auto;
+  text-align: center;
+  color: a.$brownGrey;
+
+  h1 {
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    padding: 0 45px;
+    margin-left: 50px;
+  }
+
+  h4 {
+    font-size: 16px;
+    letter-spacing: .5px;
+    font-weight: 400;
+    padding: 0 45px;
+    margin-left: 50px;
+  }
+
+  img {
+    padding: 15px;
+    margin-right: 50px;
+  }
+}
+
+.main-two {
+  display: none;
+}
