@@ -18,7 +18,8 @@ header, .header {
 
   }
 
-  a {
+  a.main {
+    padding: 5px 8px;
     letter-spacing: 2.5px;
     &:not(:last-child) {
       margin-right: 45px;
@@ -27,3 +28,57 @@ header, .header {
 
 }
 
+// dropdown menu
+
+.dropdown .dropbtn {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  background-color: a.$tanly;
+  color: a.$brownGrey;
+
+  border: none;
+  outline: none;
+  padding: 5px 8px;
+  margin-right: 45px;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  letter-spacing: 1.5px;
+
+
+  min-width: 150px;
+
+
+}
+
+nav a:hover, .dropdown:hover .dropbtn {
+  background-color: a.$olive;
+}
+
+.dropdown-content a {
+  float: none;
+  text-decoration: none;
+  display: block;
+
+  background-color: a.$white;
+  padding: 12px 16px;
+}
+
+.dropdown-content a:hover {
+  background-color: a.$olive;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+// sub pages to match main
+.sub {
+  height: 28px;
+}

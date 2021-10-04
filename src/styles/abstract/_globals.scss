@@ -34,6 +34,9 @@ a, a:visited, a:hover {
   color: v.$brownGrey;
 }
 
+
+
+
 // Flexbox style
 .flex {
   display: flex;
@@ -67,4 +70,8 @@ a, a:visited, a:hover {
 
 .block {
   display: block;
+}
+
+.block-inline {
+  display: inline-block;
 }
